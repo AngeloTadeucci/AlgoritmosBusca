@@ -220,7 +220,7 @@ namespace AlgoritmosBusca
             this.aprofundamentoIterativoButton.Name = "aprofundamentoIterativoButton";
             this.aprofundamentoIterativoButton.Size = new System.Drawing.Size(170, 19);
             this.aprofundamentoIterativoButton.TabIndex = 3;
-            this.aprofundamentoIterativoButton.Text = "Aprofundamento Interativo";
+            this.aprofundamentoIterativoButton.Text = "Aprofundamento Iterativo";
             this.aprofundamentoIterativoButton.UseVisualStyleBackColor = true;
             // 
             // label1
