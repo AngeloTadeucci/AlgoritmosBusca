@@ -144,18 +144,17 @@ namespace AlgoritmosBusca
             this.aStarButton.Name = "aStarButton";
             this.aStarButton.Size = new System.Drawing.Size(70, 19);
             this.aStarButton.TabIndex = 7;
-            this.aStarButton.TabStop = true;
             this.aStarButton.Text = "A Estrela";
             this.aStarButton.UseVisualStyleBackColor = true;
             // 
             // origemComboBox
             // 
+            this.origemComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.origemComboBox.FormattingEnabled = true;
             this.origemComboBox.Location = new System.Drawing.Point(59, 282);
             this.origemComboBox.Name = "origemComboBox";
             this.origemComboBox.Size = new System.Drawing.Size(202, 23);
             this.origemComboBox.TabIndex = 8;
-            this.origemComboBox.Text = "Escolha a origem";
             // 
             // greedyButton
             // 
@@ -164,7 +163,6 @@ namespace AlgoritmosBusca
             this.greedyButton.Name = "greedyButton";
             this.greedyButton.Size = new System.Drawing.Size(62, 19);
             this.greedyButton.TabIndex = 6;
-            this.greedyButton.TabStop = true;
             this.greedyButton.Text = "Greedy";
             this.greedyButton.UseVisualStyleBackColor = true;
             // 
@@ -184,18 +182,17 @@ namespace AlgoritmosBusca
             this.custoUniformeButton.Name = "custoUniformeButton";
             this.custoUniformeButton.Size = new System.Drawing.Size(109, 19);
             this.custoUniformeButton.TabIndex = 5;
-            this.custoUniformeButton.TabStop = true;
             this.custoUniformeButton.Text = "Custo Uniforme";
             this.custoUniformeButton.UseVisualStyleBackColor = true;
             // 
             // destinoComboBox
             // 
+            this.destinoComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.destinoComboBox.FormattingEnabled = true;
             this.destinoComboBox.Location = new System.Drawing.Point(59, 311);
             this.destinoComboBox.Name = "destinoComboBox";
             this.destinoComboBox.Size = new System.Drawing.Size(202, 23);
             this.destinoComboBox.TabIndex = 9;
-            this.destinoComboBox.Text = "Escolha o destino";
             // 
             // bidirecionalButton
             // 
@@ -204,7 +201,6 @@ namespace AlgoritmosBusca
             this.bidirecionalButton.Name = "bidirecionalButton";
             this.bidirecionalButton.Size = new System.Drawing.Size(87, 19);
             this.bidirecionalButton.TabIndex = 4;
-            this.bidirecionalButton.TabStop = true;
             this.bidirecionalButton.Text = "Bidirecional";
             this.bidirecionalButton.UseVisualStyleBackColor = true;
             // 
@@ -224,7 +220,6 @@ namespace AlgoritmosBusca
             this.aprofundamentoIterativoButton.Name = "aprofundamentoIterativoButton";
             this.aprofundamentoIterativoButton.Size = new System.Drawing.Size(170, 19);
             this.aprofundamentoIterativoButton.TabIndex = 3;
-            this.aprofundamentoIterativoButton.TabStop = true;
             this.aprofundamentoIterativoButton.Text = "Aprofundamento Interativo";
             this.aprofundamentoIterativoButton.UseVisualStyleBackColor = true;
             // 
@@ -244,7 +239,6 @@ namespace AlgoritmosBusca
             this.profundidadeLimitadaButton.Name = "profundidadeLimitadaButton";
             this.profundidadeLimitadaButton.Size = new System.Drawing.Size(146, 19);
             this.profundidadeLimitadaButton.TabIndex = 2;
-            this.profundidadeLimitadaButton.TabStop = true;
             this.profundidadeLimitadaButton.Text = "Profundidade Limitada";
             this.profundidadeLimitadaButton.UseVisualStyleBackColor = true;
             this.profundidadeLimitadaButton.CheckedChanged += new System.EventHandler(this.OnProfundidadeLimitadaCheck);
@@ -256,13 +250,13 @@ namespace AlgoritmosBusca
             this.profundidadeButton.Name = "profundidadeButton";
             this.profundidadeButton.Size = new System.Drawing.Size(97, 19);
             this.profundidadeButton.TabIndex = 1;
-            this.profundidadeButton.TabStop = true;
             this.profundidadeButton.Text = "Profundidade";
             this.profundidadeButton.UseVisualStyleBackColor = true;
             // 
             // amplitudeButton
             // 
             this.amplitudeButton.AutoSize = true;
+            this.amplitudeButton.Checked = true;
             this.amplitudeButton.Location = new System.Drawing.Point(6, 22);
             this.amplitudeButton.Name = "amplitudeButton";
             this.amplitudeButton.Size = new System.Drawing.Size(81, 19);

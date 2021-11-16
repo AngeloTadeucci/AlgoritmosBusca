@@ -80,13 +80,15 @@ public partial class MainWindow : Form
         var scope = engine.CreateScope();
         string script;
 
+        string? solutionPath = AppDomain.CurrentDomain.BaseDirectory;
+
         if (amplitudeButton.Checked || profundidadeButton.Checked || profundidadeLimitadaButton.Checked || aprofundamentoIterativoButton.Checked || bidirecionalButton.Checked)
         {
-            script = "D:/Projetos/Unitau/AlgoritmosBusca/AlgoritmosBusca/busca_sem_info_6ADS.py";
+            script = $"{solutionPath}/busca_sem_info_6ADS.py";
         }
         else
         {
-            script = "D:/Projetos/Unitau/AlgoritmosBusca/AlgoritmosBusca/busca_com_pesos_6ADS.py";
+            script = $"{solutionPath}/busca_com_pesos_6ADS.py";
         }
 
         engine.ExecuteFile(script, scope);
